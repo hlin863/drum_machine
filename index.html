@@ -1,0 +1,92 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<html lang="en">
+
+<head>
+
+  <meta property="og:url" content="https://iarobinson.github.io/doc-holiday-soundboard/" />
+  <meta property="og:title" content="Who loves Doc Holiday?" />
+  <meta property="og:description" content="Have you ever played with a Doc Holiday soundboard?" />
+  <meta property="og:image" content="https://iarobinson.github.io/doc-holiday-soundboard/library/image/docHolidaySoundBoard.jpg" />
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <script src="js/drum.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/drum.css">
+</head>
+
+<body>
+
+  <div id="drum-machine" class="container">
+
+    <table>
+
+      <tr>
+        <td>
+          <a id="0" onclick="manageClick(this)" class="drum-pad button button-primary">Q
+            <audio src="library/docHolidaySounds/drum_goodEveningThen.mp3" class="clip" id="Q">
+          </a>
+        </td>
+        <td>
+          <a id="1" onclick="manageClick(this)" class="drum-pad button button-primary">W
+            <audio src="library/docHolidaySounds/drum_weStartedAGame.mp3" class="clip" id="W">
+          </a>
+        </td>
+        <td>
+          <a id="2" onclick="manageClick(this)" class="drum-pad button button-primary">E
+            <audio src="library/docHolidaySounds/drum_youMayGoNow.mp3" class="clip" id="E">
+          </a>
+        </td>
+        <td>
+          <a id="3" onclick="manageClick(this)" class="drum-pad button button-primary">A
+            <audio src="library/docHolidaySounds/drum_defileMyself.mp3" class="clip" id="A">
+          </a>
+        </td>
+
+      </tr>
+
+      <tr>
+        <td>
+          <a id="4" onclick="manageClick(this)" class="drum-pad button button-primary">S
+            <audio src="library/docHolidaySounds/drum_peachOfaHand.mp3" class="clip" id="S">
+          </a>
+        </td>
+        <td>
+          <a id="5" onclick="manageClick(this)" class="drum-pad button button-primary">D
+            <audio src="library/docHolidaySounds/drum_someBodyJustWalkedOverYourGrave.mp3" class="clip" id="D">
+          </a>
+        </td>
+        <td>
+          <a id="6" onclick="manageClick(this)" class="drum-pad button button-primary">Z
+            <audio src="library/docHolidaySounds/drum_sweetSoftHungarianDevil.mp3" class="clip" id="Z">
+          </a>
+        </td>
+        <td>
+          <a id="7" onclick="manageClick(this)" class="drum-pad button button-primary">X
+            <audio src="library/docHolidaySounds/drum_yourADaisyIfYouDo.mp3" class="clip" id="X">
+          </a>
+        </td>
+        <td>
+          <a id="8" onclick="manageClick(this)" class="drum-pad button button-primary">C
+            <audio src="library/docHolidaySounds/drum_poorSoul.mp3" class="clip" id="C">
+          </a>
+        </td>
+      </tr>
+
+    </table>
+
+    <h2 id="display"></h2>
+
+  </div>
+
+</body>
+
+</html>
